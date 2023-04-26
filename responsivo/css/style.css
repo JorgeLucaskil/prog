@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding: 0;
+	margin: 0;
+}
+.menu{
+	width: 100%;
+	background: black;
+	height: 7vh;
+	position: fixed;
+	z-index: 3;
+}
+.menu-img{
+	width: 7%;
+	float: left;
+}
+.img-logo{
+	width: 100%;
+	margin-top: 8%;
+}
+.menu-controle{
+	width: 50%;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+.menu-controle ul{
+	list-style: none;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+.menu-controle ul a{
+	text-decoration: none;
+}
+.menu-controle ul a:hover{
+	text-decoration: none;
+}
+.menu-controle ul a:link{
+	text-decoration: none;
+}
+.nav-menu{
+	padding-top: 2%;
+	width: 15%;
+	color: white;
+	text-align: center;
+	float: left;
+
+}
+.nav-menu:hover{
+	color: black;
+	background: white;
+	cursor: pointer;
+}
+.btn-menu{
+	width: 3%;
+	float: right;
+	margin-right: 3%;
+}
+.img-responsivo{
+	width: 100%;
+	display: none;
+}
+
+
+.area-produto{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 3%;
+}
+.produto{
+	text-align: center;
+	width: 20%;
+	padding: 1%;
+	border: 3px solid black;
+	border-radius: 20px;
+	margin: 2%;
+	float: left;
+}
+.produto:hover{
+	cursor: pointer;
+}
+.img-prod{
+	width: 90%;
+}
+.btn-comprar{
+	width: 80%;
+	height: 5vh;
+	color: black;
+	background: white;
+	border: 2px solid black;
+	border-radius: 20px;
+	font-size: 24px;
+}
+.btn-comprar:hover{
+	color: white;
+	background: black;
+}
+.bt-pag:hover{
+	cursor: pointer;
+	background: black;
+	color: white;
+}
+.rodape{
+	margin-top: 2%;
+	width: 100%;
+	text-align: center;
+	color: white;
+	background: black;
+	font-size: 20px;
+	padding: 1%;
+}
+.tabela-nav{
+	width: 30%;
+}

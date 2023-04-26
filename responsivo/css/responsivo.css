@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 400px) {
+.produto{
+	text-align: center;
+	width: 45%;
+	padding: 1%;
+	border: 3px solid black;
+	border-radius: 20px;
+	margin: 2%;
+	float: left;
+}
+	.empresa{
+		padding-top: 50%;
+	}	
+	.valor{
+		font-size: 22px;
+	}
+	.btn-comprar{
+	width: 80%;
+	height: 5vh;
+	color: black;
+	background: white;
+	border: 2px solid black;
+	border-radius: 20px;
+	font-size: 15px;
+}
+	.tabela-nav{
+	width: 50%;
+}
+	
+.menu-img{
+	width: 25%;
+	float: left;
+}
+.img-logo{
+	width: 100%;
+	margin-top: 20%;
+}
+.menu-controle{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	display: none;
+}
+.nav-menu{
+	width: 100%;
+	color: white;
+	text-align: center;
+	float: left;
+	background: black;
+}
+.btn-menu{
+	width: 10%;
+	float: right;
+	margin-right: 3%;
+}
+.img-responsivo{
+	width: 100%;
+	display: block;
+	margin-top: 20%;
+	cursor: pointer;
+}
+	.banner{
+	width: 100%;
+ position: fixed;
+		margin-top: 15%;
+}
+
+.banner-img{
+	width: 100%;
+	float: left;
+	position: relative;
+	animation-name: banner2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.banner-img1{
+	width: 100%;
+	float: left;
+	position: relative;
+	animation-name: banner3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+	
+}
+@keyframes banner3 {
+  0%   {left: 390px; top:-142px;}
+  25%  {left:0px; top:-142px;}
+  50%  { left:0px; top:-142px;}
+  100% {background-color:red; left:390px; top:-142px;}
+}
+@keyframes banner2 {
+  0%   {background-color:red; right:0px; top:0px;}
+  25%   {right:390px; top:0px;}
+  50%  { right:390px; top:0px;}
+  100% {background-color:red; right:0px; top:0px;}
+}
